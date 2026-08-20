@@ -1,23 +1,13 @@
-# GANES
+# GANES GitHub Pages V5.32.1
 
-Current GANES web build prepared for GitHub Pages.
+Self-contained GitHub Pages build.
 
-## Publish with GitHub Pages
+All GANES logo, wordmark and UI icon images are embedded directly into `index.html`.
+This prevents missing-image/path issues when deployed to GitHub Pages and opened on mobile.
 
-1. Create a public GitHub repository (for example `ganes`).
-2. Upload everything in this folder to the repository root.
-3. Commit the files to the `main` branch.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select **main** and **/(root)**, then save.
+Publish from:
+- Branch: `main`
+- Folder: `/(root)`
 
-GitHub will publish the site at a `github.io` address.
-
-## Backend
-
-The app continues to use the existing Supabase project for authentication and cloud data.
-The Supabase publishable/anon key in a browser app is expected to be public; security must be enforced by RLS and server-side policies.
-
-## Version
-
-GANES V5.32.0 — Full Achievements
+Live user/organisation Pages URL:
+https://ganessporttracker.github.io/
